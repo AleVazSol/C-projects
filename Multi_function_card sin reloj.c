@@ -50,14 +50,7 @@ int estado_salida;
 int estado_entrada;
 int b,r,caso_valido;
 /*
-            mmmmm   mmmmm  ffffffffff  cccccccccc       11111          00000000       00000000
-            mmmmmmmmmmmmm  ffffffffff  cccccccccc      111111          00000000       00000000
-            mmm  mmm  mmm  fff         ccc                111          000  000       000  000
-            mmm  mmm  mmm  ffffffffff  ccc                111          000  000       000  000
-            mmm  mmm  mmm  ffffffffff  ccc                111          000  000       000  000
-            mmm  mmm  mmm  fff         cccccccccc      111111111  ***  00000000  ***  00000000
-            mmm  mmm  mmm  fff         cccccccccc      111111111  ***  00000000  ***  00000000
-            
+      
                                   CCCCCCCCCC  AAAAAAAAA   VVV   VVV  SSSSSSSSS
                                   CCCCCCCCCC  AAAAAAAAA   VVV   VVV  SSSSSSSSS
                                   CCC         AAA   AAA   VVV   VVV  SSS
