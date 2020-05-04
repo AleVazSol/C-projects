@@ -49,17 +49,9 @@ int n_entrada;
 int estado_salida;
 int estado_entrada;
 int b,r,caso_valido;
-/*
-      
-                                  CCCCCCCCCC  AAAAAAAAA   VVV   VVV  SSSSSSSSS
-                                  CCCCCCCCCC  AAAAAAAAA   VVV   VVV  SSSSSSSSS
-                                  CCC         AAA   AAA   VVV   VVV  SSS
-                                  CCC         AAAAAAAAA   VVV   VVV  SSSSSSSSS
-                                  CCC         AAAAAAAAA   VVV   VVV       SSSS
-                                  CCCCCCCCCC  AAA   AAA    VVV VVV   SSSSSSSSS
-                                  CCCCCCCCCC  AAA   AAA     VVVVV    SSSSSSSSS
 
-*/
+
+
 void setup_pwm(){                                     // rutina para calcular los valores del PWM
 carga_del_timer=64*freq;
 carga_del_timer=(cristal/carga_del_timer)-1;
